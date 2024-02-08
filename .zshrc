@@ -8,6 +8,9 @@ alias vim="nvim"
 
 export HISTSIZE=100000
 export HISTFILESIZE=100000
+setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_DUPS
+
 export EDITOR=nvim
 
 # When EDITOR contains 'vi,' zsh uses vi-style keybindings, this command resets
