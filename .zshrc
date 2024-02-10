@@ -2,8 +2,7 @@ export CLICOLOR=1
 export LSCOLORS=cxgxfxexbxegedabagacad
 export PS1='%n %F{1}::%f %F{2}%~%f %F{1}%(?..%?)%f%F{4}'$'\U00BB''%f '
 
-alias ls='ls --color'
-alias ls='ls -G'
+alias ls='ls -aG'
 alias vim="nvim"
 
 export HISTSIZE=100000
