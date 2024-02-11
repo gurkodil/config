@@ -10,6 +10,11 @@ export HISTFILESIZE=100000
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 
+# Install global npm packages without sudo
+NPM_PACKAGES="${HOME}/.npm-packages"
+export PATH="$PATH:$NPM_PACKAGES/bin"
+export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
+
 export EDITOR=nvim
 
 # When EDITOR contains 'vi,' zsh uses vi-style keybindings, this command resets
