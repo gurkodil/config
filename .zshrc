@@ -4,6 +4,7 @@ export PS1='%n %F{1}::%f %F{2}%~%f %F{1}%(?..%?)%f%F{4}'$'\U00BB''%f '
 
 alias ls='ls -aG'
 alias vim="nvim"
+alias cooking="caffeinate -u -d -t 3600" # Prevent screen from sleeping for 1 hour
 
 export HISTSIZE=100000
 export HISTFILESIZE=100000
